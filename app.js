@@ -1,4 +1,5 @@
 var main = function() {
+
 //создание псеводокласса---------------------------------------------
   function Fishka(name) {
     this.name = name;
@@ -75,6 +76,10 @@ var main = function() {
     $('body').animate({
       left: "285px"
     }, 200);
+	
+	$('.numbers').animate({
+      left: "285px"
+    }, 200);
   });
 
   /* Then push them back */
@@ -84,6 +89,10 @@ var main = function() {
     }, 200);
 
     $('body').animate({
+      left: "0px"
+    }, 200);
+	
+	$('.numbers').animate({
       left: "0px"
     }, 200);
   });
@@ -144,8 +153,7 @@ var main = function() {
   $('#mix').click(function() {
     mix();
   });
-  
-  
+    
 };
 
 $(document).ready(main);
