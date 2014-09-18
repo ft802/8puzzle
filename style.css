@@ -1,5 +1,10 @@
-/* Initial body */
+﻿http {
+  background-color: black;
+  background-image: url('http://s3.amazonaws.com/codecademy-content/courses/ltp2/img/uber/bg.png'); 
+}
+
 body {
+  background: #202024;
   left: 0;
   margin: 0;
   overflow: hidden;
@@ -12,10 +17,9 @@ body {
   left: -285px;  /* start off behind the scenes */
   height: 100%;
   position: fixed;
-  width: 285px;
+  width: 285px;*/
 }
 
-/* Basic styling */
 
 .jumbotron {
   background-color: black;
